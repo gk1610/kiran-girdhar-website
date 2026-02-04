@@ -574,3 +574,15 @@ footer p {
         color: var(--color-primary);
     }
 }
+.about-photo img {
+  max-width: 600px;   /* ← change this number */
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.about-photo {
+  margin: 1.5rem auto 2rem auto;
+  text-align: center;
+}
+
